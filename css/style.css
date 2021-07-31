@@ -115,7 +115,6 @@ nav > ul > li > a:visited {
 }
 .row {
 margin: 25px 0; /* 25px top and bottom, 0 left and right */
-border-bottom: 1px solid #C4BEBE;
 }
 .center {
   text-align: center;
