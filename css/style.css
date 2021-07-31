@@ -5,6 +5,9 @@ Header colour pink: #FF5E6C;
 Body text colour black: #000000;
 Accent colour maybe pastel yellow: #fff5d7;
 */
+* {
+  box-sizing: border-box;
+}
 body {
 background-color: #ECE8E8;
 font-family: 'LibreFranklin', sans-serif;
