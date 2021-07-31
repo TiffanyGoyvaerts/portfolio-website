@@ -8,6 +8,9 @@ Accent colour maybe pastel yellow: #fff5d7;
 * {
   box-sizing: border-box;
 }
+html {
+scroll-behavior: smooth;
+}
 body {
 background-color: #ECE8E8;
 font-family: 'LibreFranklin', sans-serif;
