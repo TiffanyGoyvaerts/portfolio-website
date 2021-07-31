@@ -31,7 +31,7 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;}
 img {width: 100%;}
-.logo {width: 100px ; height: auto}
+.logo {width: 100px ; height: auto ; max-width: 250px;}
 .linkedin {width: 50px ; height: auto}
 .behance {width: 50px ; height: auto}
   a {
@@ -85,7 +85,24 @@ header {
   padding: 10px;
   margin: 10px;
   border-bottom: 3px solid #AAA2A2;
+  text-align: center;
+padding: 10px 0;
 }
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+  color: #FF5E6C;}
 /* Layout styling */
 .container {
   padding: 0 15px;
@@ -93,4 +110,7 @@ header {
 .row {
 margin: 25px 0; /* 25px top and bottom, 0 left and right */
 border-bottom: 1px solid #C4BEBE;
+}
+.center {
+  text-align: center;
 }
