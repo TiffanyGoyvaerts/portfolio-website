@@ -120,11 +120,11 @@ border-bottom: 1px solid #C4BEBE;
 #hero h1 {
   text-align: center; /* Centers text */
   margin: 0;
-  padding: 0.67em 0;
+    padding: 0.67em 0;
 }
 #hero {
   background-color: #C4BEBE;
-  padding: 20px 0;
+    padding: 20px 0;
 display: inline-block;
 width: 100%;
 }
