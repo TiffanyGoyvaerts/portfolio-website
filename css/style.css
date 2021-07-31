@@ -79,4 +79,7 @@ opacity: 0.8;
 }
 header {
   background-color: #C4BEBE;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #AAA2A2;
 }
