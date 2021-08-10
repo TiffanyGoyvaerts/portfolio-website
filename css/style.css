@@ -56,6 +56,7 @@ a:active {
     border-radius: 80px;
     border-bottom: 3px solid #C4BEBE; /* width of the border, type, color */
     transition: 0.2s opacity;
+    transition-property: opacity;
   }
   .button:hover {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
