@@ -52,7 +52,7 @@ a:active {
     background-color: #FF5E6C;
     color: #ECE8E8; /* needed to override the default link color */
     font-weight: 700;
-    padding: 16px;
+    padding: 18px 16px 14px 16px;
     border-radius: 80px;
     border-bottom: 3px solid #C4BEBE; /* width of the border, type, color */
     transition: 0.2s opacity;
