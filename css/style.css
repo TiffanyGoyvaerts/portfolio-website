@@ -11,7 +11,6 @@ Accent colour maybe pastel yellow: #fff5d7;
 html {
 scroll-behavior: smooth;
 }
-a.icon {color: #FF5E6C}
 body {
 background-color: #FFFFFF;
 font-family: 'LibreFranklin', sans-serif;
@@ -35,7 +34,7 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;}
 img {width: 100% ;}
-.logo {width: 100px ; height: auto ; max-width: 250px;}
+.logo {width: 50px ; height: auto ; max-width: 150px;}
 .linkedin {width: 50px ; height: auto}
 .behance {width: 50px ; height: auto}
   a {
@@ -177,6 +176,7 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+  .logo {width: 100px ; height: auto ; max-width: 250px;}
   nav > ul > li {
     display: inline-block;
   }
