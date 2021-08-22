@@ -11,6 +11,7 @@ Accent colour maybe pastel yellow: #fff5d7;
 html {
 scroll-behavior: smooth;
 }
+a.icon {color: #FF5E6C}
 body {
 background-color: #FFFFFF;
 font-family: 'LibreFranklin', sans-serif;
@@ -95,9 +96,6 @@ nav > ul {
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -179,7 +177,9 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
+  nav > ul > li {
+    display: inline-block;
+  }
   nav {
     width: auto;
     float: right;
