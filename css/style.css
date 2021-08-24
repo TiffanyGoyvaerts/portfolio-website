@@ -91,6 +91,18 @@ header {
 padding: 10px 0;
 text-align: unset;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -177,6 +189,27 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
   .logo {width: 100px ; height: auto ; max-width: 250px;}
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
+}
   nav > ul > li {
     display: inline-block;
   }
