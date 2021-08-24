@@ -91,18 +91,57 @@ header {
 padding: 10px 0;
 text-align: unset;
 }
-.navtoggle li:not(:last-child) {
-  display: none;
+nav > ul {
+  list-style-type: none;
+  padding: 0;
 }
-.navtoggle li .icon {
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FF5E6C;
+  text-decoration:none;
+  }
+nav > ul > li > a:visited {
+   color:#FF5E6C;
+   }
+nav > ul > li > a:hover {
+      color: #CC6540;
+      }
+nav > ul > li > a:active {
+  color: #994C30;
+  }
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0;
+  }
+  .navtoggle li:not(:last-child) {
+  display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+  position: relative;
+  }
+  .navtoggle li .icon {
   position: absolute;
   right: 0;
   top: 2px;
   font-size: 20px;
-}
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
+  }
+  .navtoggle.responsive li  {
+  display: block;
+  }
+  .navtoggle.responsive nav {
+  padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  .navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+  }
 nav > ul {
   list-style-type: none;
   padding: 0;
