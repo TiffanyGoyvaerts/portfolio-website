@@ -33,7 +33,7 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 400;}
-img {max-width: 100% ;}
+img {width: 100% ;}
 .logo {width: 50px ; height: auto ; max-width: 150px;}
 .linkedin {width: 50px ; height: auto}
 .behance {width: 50px ; height: auto}
@@ -103,7 +103,7 @@ nav > ul > li > a {
   text-decoration:none;
   }
 nav > ul > li > a:visited {
-   color:#F9F9F9;
+   color:#FF5E6C;
    }
 nav > ul > li > a:hover {
       color: #CC6540;
@@ -142,6 +142,18 @@ nav > ul > li > a:active {
   .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
   }
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+  color: #FF5E6C;}
 /* Layout styling */
 .container {
   padding: 0 25px;
@@ -188,6 +200,7 @@ height: auto;
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
   100% {fill: #f76414;}
+}
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
@@ -264,5 +277,5 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
 }
