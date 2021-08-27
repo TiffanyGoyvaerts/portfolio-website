@@ -193,7 +193,6 @@ padding: 10px 0;
 text-align: unset;
 }
 @keyframes display-image {
-width: 100%;
 max-width: 100%;
 height: auto;
 }
@@ -201,7 +200,6 @@ height: auto;
   0% {fill: #edc655;}
   50% {fill: #fcffad;}
   100% {fill: #f76414;}
-}
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
@@ -278,5 +276,5 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {}
 }
